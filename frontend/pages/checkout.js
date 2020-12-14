@@ -5,8 +5,8 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 
 import AppContext from "../context/AppContext";
-import InjectedCheckoutForm from "../components/checkout/CheckoutForm";
-import Cart from "../components/cart/";
+import InjectedCheckoutForm from "../components/Checkout/CheckoutForm";
+import Cart from "../components/Cart/";
 
 function Checkout() {
   // get app context
